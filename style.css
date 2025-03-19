@@ -64,3 +64,43 @@ p {
 .about-desc {
   margin-top: var(--space-32);
 }
+
+
+/* BACKGROUND VIDEO */
+
+.banner video 
+{
+    width: 100%;
+}
+
+/* HEADER */
+
+header {
+    min-width: 100%;
+}
+
+header .logo img
+{
+    filter: invert(1);
+}
+
+ul li
+{
+    list-style: none;
+    align-content: center;
+}
+
+ul li a
+{
+    text-decoration: none;
+    color: var(--white);
+    font-size: var(--space-16);
+    cursor: pointer;
+    font-weight: 900;
+}
+
+ul li a:hover
+{
+    color: var(--sky-blue);
+    transition: all .2s ease-in-out;
+}
