@@ -1,5 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root {
+    --sky-blue: #27BAF2;
+    --blue: #0D215C;
+    --navy-blue: #031138;
+    --white: #FFFFFF;
+    --space-16: 1rem;
+    --space-24: 1.5rem;
+    --space-32: 2rem;
+    --space-48: 3rem;
+    --space-64: 4rem;
+    --space-80: 5rem;
 }
