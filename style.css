@@ -36,6 +36,7 @@ p {
 
 .section-title {
     color: var(--sky-blue);
+    font-weight: 600;
 }
 
 /* about section styling  */
@@ -121,4 +122,30 @@ h2 {
 .banner-content h2 {
     max-width: 70%;
     font-size: var(--space-24);
+}
+
+/* ROSTER */
+
+.roster {
+    aspect-ratio: 5/2;
+    background: url('https://static.wixstatic.com/media/ea71bb_4884b1deb29244bebcbd4f6c97bd8f7a~mv2_d_5199_2930_s_4_2.jpg/v1/fill/w_1905,h_740,fp_0.49_0.37,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ea71bb_4884b1deb29244bebcbd4f6c97bd8f7a~mv2_d_5199_2930_s_4_2.jpg') center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.roster h2 {
+    font-size: var(--space-64);
+}
+
+.custom-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--sky-blue);
+    border: 3px solid var(--sky-blue);
+}
+
+.custom-btn:hover {
+    background-color: var(--sky-blue);
+    color: var(--white);
+    transition: all .3s ease-in-out;
 }
