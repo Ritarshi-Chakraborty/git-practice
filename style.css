@@ -133,6 +133,11 @@ h2 {
     background-attachment: fixed;
 }
 
+.roster .container
+{
+    min-height: 100%;
+}
+
 .roster h2 {
     font-size: var(--space-64);
 }
