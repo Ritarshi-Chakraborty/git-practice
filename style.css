@@ -1,18 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 :root {
-    --sky-blue: #27BAF2;
-    --blue: #0D215C;
-    --navy-blue: #031138;
-    --white: #FFFFFF;
-    --space-16: 1rem;
-    --space-24: 1.5rem;
-    --space-32: 2rem;
-    --space-48: 3rem;
-    --space-64: 4rem;
-    --space-80: 5rem;
+  --sky-blue: #27baf2;
+  --blue: #0d215c;
+  --navy-blue: #031138;
+  --white: #ffffff;
+  --space-16: 1rem;
+  --space-24: 1.5rem;
+  --space-32: 2rem;
+  --space-48: 3rem;
+  --space-64: 4rem;
+  --space-80: 5rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.section-title {
+  color: var(--sky-blue);
+}
+
+/* about section styling  */
+
+.about {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.about-img,
+.about-content {
+  flex-basis: 400px;
+  flex-grow: 1;
+  min-height: 75vh;
+}
+
+.about-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.about-content {
+  align-content: center;
+  padding: 4rem 15rem;
+}
+
+.about-desc {
+  margin-top: var(--space-32);
 }
