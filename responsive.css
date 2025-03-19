@@ -1,0 +1,11 @@
+@media screen and (max-width: 1440px) {
+    .about-content{
+        padding: 4rem 4rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .about-content{
+        padding: 2rem 2rem;
+    }
+}
