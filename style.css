@@ -86,10 +86,6 @@ header {
   min-width: 100%;
 }
 
-header .logo img {
-  filter: invert(1);
-}
-
 ul li {
   list-style: none;
   align-content: center;
@@ -144,6 +140,7 @@ ul li a:hover {
 .card-title{
   margin-top: 10rem;
   font-weight: 600;
+}
 
 ul li {
     list-style: none;
