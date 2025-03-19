@@ -81,10 +81,6 @@ header {
     min-width: 100%;
 }
 
-header .logo img {
-    filter: invert(1);
-}
-
 ul li {
     list-style: none;
     align-content: center;
@@ -133,8 +129,7 @@ h2 {
     background-attachment: fixed;
 }
 
-.roster .container
-{
+.roster .container {
     min-height: 100%;
 }
 
